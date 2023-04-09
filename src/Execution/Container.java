@@ -74,7 +74,7 @@ public class Container {
      *
      * @param weight the weight
      */
-    public void setWeightOfShipments(Double weight) {
+    public void addWeightOfShipments(Double weight) {
         weightOfShipments.add(weight);
     }
 

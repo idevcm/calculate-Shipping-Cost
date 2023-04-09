@@ -145,7 +145,7 @@ public class ExecutionProgram {
 
             } catch (Exception e) {
                 System.out.println("[!] Detected invalid value\n");
-                System.out.println("Please enter a valid quantity of objects");
+                System.out.println("\nPlease enter a valid weight");
                 sc.nextLine();
             }
         }
@@ -168,7 +168,7 @@ public class ExecutionProgram {
                 if (container.getMaximumWeight() >= (container.getTotalWeight() + weights.get(j - 1))) {
                     container.setShipmentWeight(weights.get(j - 1));
                     container.setTotalWeight();
-                    container.setWeightOfShipments(weights.get(j - 1));
+                    container.addWeightOfShipments(weights.get(j - 1));
                     weights.remove(j - 1);
                 }
             }
