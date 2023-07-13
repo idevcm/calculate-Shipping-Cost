@@ -1,7 +1,7 @@
 ﻿1. English manual
 2. Manual en español
 
-# 4 Calculate the cost of shipping goods by sea
+# Calculate the cost of shipping goods by sea
 
 This program puts us in a fictional situation where we arrive at the Port of Algeciras, the largest port in Spain and 
 one of the most important in the world in terms of container traffic.
